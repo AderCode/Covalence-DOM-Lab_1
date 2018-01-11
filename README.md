@@ -12,9 +12,9 @@ Create a CSS stylesheet and import it into your html file
 
 # Objectives
 
-- When the browser first loads, use the DOM to create and insert a button labeled Add Square into the body
+# When the browser first loads, use the DOM to create and insert a button labeled Add Square into the body
 
-- When the button is clicked, a new div should be added to the page
+# When the button is clicked, a new div should be added to the page
     - The div should be a black square
 
     - The squares should flow horizontally across the page

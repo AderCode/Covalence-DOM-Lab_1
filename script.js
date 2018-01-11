@@ -1,9 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Creating the 'Button' and 'Button Text' and assigning to variables.
+    
+    // Create a 'Button' and 'Button Text' assigned to variables.
     let button = document.createElement("button");
     let btnText = document.createTextNode("Add Square");
-    //Place the 'Button Text' within the 'Button'
+    
+    //Insert 'Button Text' within the 'Button'
     button.appendChild(btnText);
-    //Place 'Button' within the 'Body' of the HTML file
+
+    //Insert 'Button' within the 'Body'
     document.body.appendChild(button);
+    // Listens for a single click of the parent 'Button'
+    button.addEventListener("click", function() {
+        // Create a 'div'
+        let div = document.createElement("div");
+        // Insert 'div' within the 'Body'
+        document.body.appendChild(div);
+
+
+    })
+
 })
