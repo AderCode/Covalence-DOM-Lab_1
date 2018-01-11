@@ -1,6 +1,7 @@
 
 button {
-    position: absolute;
+    position: relative;
+    margin: 1em 46.5% 1em 46.5%;
 }
 
 
